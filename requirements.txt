@@ -1,6 +1,6 @@
 streamlit
 openai
 pinecone
-tavily
+tavily-python
 hashlib
 langchain
