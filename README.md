@@ -1,6 +1,5 @@
 👨‍💻 Contributors
-Your Name - Abenanth
-Contributions welcome! Open a PR or issue. 😊
+Abenanth ; Contributions welcome! Open a PR or issue. 😊
 ⭐ Support
 If you like this project, give it a star! ⭐
 
