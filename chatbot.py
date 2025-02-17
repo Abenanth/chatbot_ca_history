@@ -207,6 +207,24 @@ with st.sidebar:
     st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/2560px-Flag_of_Canada_%28Pantone%29.svg.png", width=200)
     st.subheader("📖 Canadian History Chatbot")
     st.write("Ask anything about Canada's past, from indigenous history to modern times.")
+    st.markdown("---")  # Divider
+    # 💡 Developer Info
+    st.subheader("👨‍💻 Developed by:")
+    st.write("**Kalyana Abenanth Gurunathan**")
+    st.write("🖥️ ML Engineer")
+
+    # 🌐 Social Links with Icons
+    st.markdown(
+        """
+        🔗 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kalyanaabenanthg/)  
+        💻 [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/Abenanth)  
+        📧 [Email](mailto:kalyanaa@ualberta.ca)
+        """,
+        unsafe_allow_html=True,
+    )
+
+    st.markdown("---")  # Divider
+
 
     if st.session_state["logged_in"]:
         st.write(f"👤 Logged in as: **{st.session_state['username']}**")
